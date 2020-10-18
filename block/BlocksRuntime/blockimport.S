@@ -131,8 +131,8 @@ L_.str:                                 ## @.str
 	.section	__DATA,__const
 	.p2align	3                               ## @__block_descriptor_tmp
 ___block_descriptor_tmp:
-	.quad	0
-	.quad	36
+	.quad	0                               ## 0x0
+	.quad	36                              ## 0x24
 	.quad	L_.str
 	.quad	0
 
@@ -146,8 +146,8 @@ L_.str.2:                               ## @.str.2
 	.section	__DATA,__const
 	.p2align	3                               ## @__block_descriptor_tmp.3
 ___block_descriptor_tmp.3:
-	.quad	0
-	.quad	44
+	.quad	0                               ## 0x0
+	.quad	44                              ## 0x2c
 	.quad	___copy_helper_block_8_32b
 	.quad	___destroy_helper_block_8_32b
 	.quad	L_.str.2
